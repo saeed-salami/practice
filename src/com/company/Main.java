@@ -23,6 +23,6 @@ public class Main {
         return amount;
     }
     public static long calculateDiscountPercent(long amount,double percent){
-        return Math.round(amount*percent);
+        return Math.round(amount - amount*percent);
     }
 }
