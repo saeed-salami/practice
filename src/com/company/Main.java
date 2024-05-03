@@ -13,7 +13,8 @@ public class Main {
 
         System.out.println("Number of books: " + books.size());
         System.out.println("Total amount of books: " + calculateAmount(books));
-        System.out.println("Amount after discount: " + calculateDiscountPercent(calculateAmount(books),0.3));
+        System.out.println("Amount after discount: " +
+                calculateDiscountPercent(calculateAmount(books),0.3));
     }
     public static long calculateAmount(List<Book> books){
         long amount = 0;
